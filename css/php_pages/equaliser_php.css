@@ -1,0 +1,31 @@
+#equaliserContainer {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width : 900px) {
+    #equaliserContainer {
+        padding-top: 1%;
+        padding-bottom: 20%;
+    }
+
+    #largescreenAdminTasks {
+        display: none;
+    }
+
+    #mobilescreenAdminTasks {
+        display: inline;
+    }
+
+    .tracksListTableDiv {
+        overflow: scroll;
+        height: 40vh;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    #noshowresp {
+        display: none;
+    }
+}

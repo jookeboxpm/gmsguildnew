@@ -1,0 +1,31 @@
+body {
+    background: url('../images/background_tile_small.jpg') repeat;
+    padding-top: 58px;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    overflow-y: scroll;
+}
+
+#logoutButtonLargeScreen {
+    display: inherit;
+}
+
+#logoutButtonSmallScreen {
+    display: none;
+}
+
+@media only screen and (max-width : 900px) {
+    #logoutButtonLargeScreen {
+        display: none;
+    }
+
+    #logoutButtonSmallScreen {
+        display: block;
+    }
+}
+
+body.modal-open {
+    width: 100% !important;
+    padding-right: 0 !important;
+    overflow-y: scroll !important;
+}

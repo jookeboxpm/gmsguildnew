@@ -1,0 +1,48 @@
+#largescreenAdminTasks {
+    display: inline;
+}
+
+#mobilescreenAdminTasks {
+    display: none;
+}
+
+#fullVenueName {
+    display: inline;
+}
+
+#tracksListTableDiv {
+    overflow: scroll;
+    height: 56vh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+@media only screen and (max-width : 900px) {
+    #largescreenAdminTasks {
+        display: none;
+    }
+
+    #mobilescreenAdminTasks {
+        display: inline;
+    }
+
+    #tracksListTableDiv {
+        overflow: scroll;
+        height: 44vh;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    #fullVenueName
+    {
+        display: inline;
+        font-size: 12px;
+    }
+
+    #editVenueModalBody {
+        max-height: 62vh;
+        overflow: auto;
+    }
+}

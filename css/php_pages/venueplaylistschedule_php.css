@@ -1,0 +1,159 @@
+#tracksListTableDiv {
+    overflow: scroll;
+    height: 56vh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+}
+
+#SundayEntriesRow {
+    display: inherit;
+}
+
+#MondayEntriesRow {
+    display: inherit;
+}
+
+#TuesdayEntriesRow {
+    display: inherit;
+}
+
+#WednesdayEntriesRow {
+    display: inherit;
+}
+
+#ThursdayEntriesRow {
+    display: inherit;
+}
+
+#FridayEntriesRow {
+    display: inherit;
+}
+
+#SaturdayEntriesRow {
+    display: inherit;
+}
+
+#SundayEntriesRowResp {
+    display: none;
+}
+
+#MondayEntriesRowResp {
+    display: none;
+}
+
+#TuesdayEntriesRowResp {
+    display: none;
+}
+
+#WednesdayEntriesRowResp {
+    display: none;
+}
+
+#ThursdayEntriesRowResp {
+    display: none;
+}
+
+#FridayEntriesRowResp {
+    display: none;
+}
+
+#SaturdayEntriesRowResp {
+    display: none;
+}
+
+#respAddPadding {
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width : 900px) {
+    #tracksListTableDiv {
+        overflow: scroll;
+        height: 48vh;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    td {
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+    }
+
+    #SundayEntriesRow {
+        display: none;
+    }
+
+    #MondayEntriesRow {
+        display: none;
+    }
+
+    #TuesdayEntriesRow {
+        display: none;
+    }
+
+    #WednesdayEntriesRow {
+        display: none;
+    }
+
+    #ThursdayEntriesRow {
+        display: none;
+    }
+
+    #FridayEntriesRow {
+        display: none;
+    }
+
+    #SaturdayEntriesRow {
+        display: none;
+    }
+
+    #SundayEntriesRowResp {
+        display: inherit;
+    }
+
+    #MondayEntriesRowResp {
+        display: inherit;
+    }
+
+    #TuesdayEntriesRowResp {
+        display: inherit;
+    }
+
+    #WednesdayEntriesRowResp {
+        display: inherit;
+    }
+
+    #ThursdayEntriesRowResp {
+        display: inherit;
+    }
+
+    #FridayEntriesRowResp {
+        display: inherit;
+    }
+
+    #SaturdayEntriesRowResp {
+        display: inherit;
+    }
+
+    #respAddPadding {
+        padding-bottom: 21%;
+    }
+}

@@ -1,0 +1,517 @@
+.containerSpacing {
+    padding: 1%;
+}
+
+.modalText1 {
+    position: absolute;
+    top: 34%;
+}
+
+.modalText2 {
+    position: absolute;
+    top: 20%;
+}
+
+.bannercontainer {
+    margin-left: 5%;
+    margin-right: 10%;
+    position: relative;
+    width: 90%;
+}
+
+.bannertext1 {
+    position: absolute;
+    top: 30%;
+    font-size: 3vw;
+}
+
+.bannertext2 {
+    position: absolute;
+    top: 30%;
+    font-size: 4vw;
+    left: 1%;
+}
+
+.bannertext3 {
+    position: absolute;
+    top: 42%;
+    font-size: 2vw;
+    left: 1%;
+}
+
+.bannertext4 {
+    position: absolute;
+    top: 48%;
+    font-size: 2vw;
+    left: 1%;
+}
+
+.bannertext5 {
+    letter-spacing: 12px;
+    position: absolute;
+    top: 15%;
+    font-size: 4vw;
+    /*! float: right; */
+    left: 55%;
+}
+
+.bannertext6 {
+    position: absolute;
+    top: 27%;
+    font-size: 2vw;
+    left: 55%;
+}
+
+.bannertext7 {
+    position: absolute;
+    top: 35%;
+    font-size: 2vw;
+    left: 55%;
+}
+
+.bannertext8 {
+    position: absolute;
+    top: 28%;
+    font-size: 4vw;
+}
+
+.bannertext9 {
+    position: absolute;
+    top: 50%;
+    font-size: 2vw;
+}
+
+.bannertext10 {
+    position: absolute;
+    top: 60%;
+    font-size: 2vw;
+}
+
+.knowmore1 {
+    position: absolute;
+    top: 60%;
+    font-size: 5vw;
+    left: 17%;
+}
+
+.knowmore2 {
+    position: absolute;
+    top: 60%;
+    font-size: 1vw;
+    left: 27%;
+}
+
+.knowmore3 {
+    position: absolute;
+    top: 48%;
+    font-size: 1vw;
+}
+
+.knowmore4 {
+    position: absolute;
+    top: 48%;
+    font-size: 1vw;
+    left: 15%;
+}
+
+.splashimage1 {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#trialmodal {
+    background-color: white;
+    max-width: 45%;
+}
+
+#trialmessage1 {
+    font-size: 1.5vw;
+    margin: 0;
+    text-align: center;
+}
+
+#trialmessage2 {
+    font-size: 1vw;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#contacticons {
+    font-size: 3vw;
+}
+
+#footertext {
+    margin: 0;
+    color: whitesmoke;
+    letter-spacing: 6px;
+    font-size: 0.60vw;
+    text-align: center;
+}
+
+#mfreebtn {
+    visibility: hidden;
+}
+
+.knowmore1 {
+    left: 15vw;
+    top: 21vw;
+}
+
+.knowmore2 {
+    left: 22vw;
+    top: 24vw;
+}
+
+.knowmore3 {
+    left: 49.3vw;
+    top: 18.3vw;
+}
+
+.knowmore4 {
+    left: 13.5vw;
+    top: 23vw;
+}
+
+#trialModalHeader1 {
+    text-align: center;
+}
+
+#trialModalHeader2 {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+blockquote {
+    margin: 0 auto;
+    padding: 1em;
+    border-left: none;
+}
+blockquote:before {
+    display: none;
+}
+
+blockquote p {
+    color: #555;
+    font-size: 16pt;
+    line-height: 1.4;
+    font-style: italic;
+    margin-bottom: 36px;
+}
+
+blockquote footer:before {
+    content: none;
+}
+
+.dfooter {
+    float:left;
+    margin-top:36px;
+}
+
+blockquote footer-name {
+    color: #777;
+    font-size: 14pt;
+    text-align: left;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+blockquote footer-desc {
+    margin-top: .5em;
+    padding: 0;
+    color: #777;
+    font-size: 12pt;
+    text-align: left;
+    font-style: italic;
+}
+
+.hexagon {
+    position: relative;
+    height: 150px;
+    width: 135px;
+    background: #777;
+    float: left;
+    margin-right: 24px;
+}
+.hexagon:before, .double:after {
+    position: absolute;
+    content: '';
+}
+.hexagon:before {
+    top: 4px;  /* border width */
+    left: 4px;  /* border width */
+    height: calc(100% - 8px);  /* 100% - (2 * border width) */
+    width: calc(100% - 8px);  /* 100% - (2 * border width) */
+    background: #6c6;
+}
+.hexagon, .hexagon:before, .double:after {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.image1:before {
+    background: url("../../images/testimonials/hoshang-garivala.jpg");
+    float: left;
+}
+.image2:before {
+    background: url("../../images/testimonials/PKMK.jpg");
+    float: left;
+}
+.image3:before {
+    background: url("../../images/testimonials/Abhijit Saha.jpg");
+    float: left;
+}
+.image4:before {
+    background: url("../../images/testimonials/chef-gaurav-saria.jpg");
+    float: left;
+}
+.image5:before {
+    /*background: url("../../images/testimonials/bharat-ram.jpg"); */
+    float: left;
+}
+.image6:before {
+    background: url("../../images/testimonials/Ramesh-Pareira.jpg");
+    float: left;
+}
+
+@media only screen and (max-width : 900px) {
+    #maticon {
+        font-size: x-small;
+    }
+
+    .knowmore1 {
+        left: 28.5vw;
+        top: 18.3vw;
+    }
+
+    .knowmore2 {
+        left: 40vw;
+        top: 22vw;
+    }
+
+    .knowmore3 {
+        left: 58.6vw;
+        top: 22.5vw;
+    }
+
+    .knowmore4 {
+        left: 23vw;
+        top: 18.3vw;
+    }
+
+    .bannertext1 {
+        position: absolute;
+        top: 30%;
+        font-size: 4vw;
+    }
+
+    .bannertext2 {
+        position: absolute;
+        top: 15%;
+        font-size: 5vw;
+        left: 1%;
+    }
+
+    .bannertext3 {
+        position: absolute;
+        top: 30%;
+        font-size: 3vw;
+        left: 1%;
+    }
+
+    .bannertext4 {
+        position: absolute;
+        top: 40%;
+        font-size: 3vw;
+        left: 1%;
+    }
+
+    .bannertext5 {
+        letter-spacing: 2px;
+        position: absolute;
+        top: 21%;
+        font-size: 4vw;
+        left: 65%;
+    }
+
+    .bannertext6 {
+        position: absolute;
+        top: 32%;
+        font-size: 3vw;
+        left: 65%;
+    }
+
+    .bannertext7 {
+        position: absolute;
+        top: 42%;
+        font-size: 3vw;
+        left: 65%;
+    }
+
+    .bannertext8 {
+        position: absolute;
+        top: 28%;
+        font-size: 5vw;
+    }
+
+    .bannertext9 {
+        position: absolute;
+        top: 50%;
+        font-size: 3vw;
+    }
+
+    .bannertext10 {
+        position: absolute;
+        top: 60%;
+        font-size: 3vw;
+    }
+    #footertext{
+        font-size: 2vw;
+        letter-spacing: 0.5vw;
+    }
+
+    #trialDockedButton {
+        color: white;
+        font-size: 13px;
+        width: 87px !important;
+        padding: 5px !important;
+    }
+
+    #loginDockedButton {
+        font-size: medium !important;
+        width: 87px !important;
+        padding: 5px !important;
+        top: 250px;
+    }
+
+    #trialModalHeader1 {
+        text-align: center;
+        font-size: small;
+    }
+
+    #trialModalHeader2 {
+        text-align: center;
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+
+    blockquote {
+        margin: 0 auto;
+        padding: .5em;
+        border-left: none;
+    }
+
+    blockquote p, footer-name div, footer-desc div{
+        font-size: 1.5vw;
+    }
+
+    blockquote p {
+        margin-bottom: 0px;
+    }
+
+    .hexagon {
+        position: relative;
+        height: 10vh;
+        width: 10vh;
+        background: #777;
+        float: left;
+        margin-right: 5px;
+    }
+    .hexagon:before, .double:after {
+        position: absolute;
+        content: '';
+    }
+    .hexagon:before {
+        top: 2px;  /* border width */
+        left: 2px;  /* border width */
+        height: calc(100% - 4px);  /* 100% - (2 * border width) */
+        width: calc(100% - 4px);  /* 100% - (2 * border width) */
+        background: #6c6;
+    }
+    .hexagon, .hexagon:before, .double:after {
+        -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+
+    .dfooter {
+        float: none;
+        margin-top:10px;
+    }
+
+    .image1:before {
+        background: url("../../images/testimonials/hoshang-garivala.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image2:before {
+        background: url("../../images/testimonials/PKMK.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image3:before {
+        background: url("../../images/testimonials/Abhijit Saha.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image4:before {
+        background: url("../../images/testimonials/chef-gaurav-saria.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image5:before {
+        /*background: url("../../images/testimonials/bharat-ram.jpg"); */
+        float: left;
+        background-size: contain;
+    }
+    .image6:before {
+        background: url("../../images/testimonials/Ramesh-Pareira.jpg");
+        float: left;
+        background-size: contain;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .hexagon {
+        height: 5vh;
+        width: 5vh;
+    }
+
+    .hexagon:before {
+        top: 1px;
+        left: 1px;
+        height: calc(100% - 2px);
+        width: calc(100% - 2px);
+    }
+
+    .image1:before {
+        background: url("../../images/testimonials/hoshang-garivala.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image2:before {
+        background: url("../../images/testimonials/PKMK.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image3:before {
+        background: url("../../images/testimonials/Abhijit Saha.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image4:before {
+        background: url("../../images/testimonials/chef-gaurav-saria.jpg");
+        float: left;
+        background-size: contain;
+    }
+    .image5:before {
+        /*background: url("../../images/testimonials/bharat-ram.jpg"); */
+        float: left;
+        background-size: contain;
+    }
+    .image6:before {
+        background: url("../../images/testimonials/Ramesh-Pareira.jpg");
+        float: left;
+        background-size: contain;
+    }
+}

@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e82600;
+}
+/*--- navigation bar ---*/
+.navbar {
+    background: #363255;
+}
+.navbar-brand{
+    box-shadow: 0 20px 30px 5px rgba(0,0,0,.1);
+}
+
+.logoimg{
+   
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(10px 10px 10px #111);
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-left: 20px !important;
+    font-family: 'Alegreya', serif;
+    text-align: justify !important;
+    width: 90%;
+}
+.nav-link:hover {
+    color: #fff0eb;
+    background-color: #e29918;
+    width: 85%;
+    text-align: justify !important;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+a{
+    font-size: 18px;
+}
+.col-sm-4> h4{
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: rgba(12, 4, 79, 0.8);
+}
+.card-body > h4{
+    font-family: 'Alegreya', serif;
+    color: #fff0eb;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #fff0eb !important;
+}
+.navbar-toggler.navbar-dark{
+    border-color: whitesmoke;
+}
+
+
+.logo{
+    font-size: 600px;
+}
+.textstyle{
+    margin: 5px;
+    padding: 8px;
+}
+
+.contentsizing{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+}
+.fa-facebook-f{
+    font-size: 2vw;
+    margin: 5px;
+    color: white;
+}
+.fa-twitter{
+    font-size: 2vw;
+    margin: 5px;
+    color: white;
+}
+
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.event .card-text {
+    font-size: 10px !important;
+}
+.carousel-indicators li{
+    background-color: grey !important;
+}
+.carousel-control-prev-icon{
+    background-color: grey !important;
+    margin-right: 60px !important;
+}
+.carousel-control-next-icon{
+    background-color: grey !important;
+    margin-left: 70px !important;
+}
+.carousel-control-next {
+    right: -19px !important;
+    visibility: hidden;
+}
+.carousel-control-prev {
+    left: -19px !important;
+    visibility: hidden;
+}
+.name-font{
+    font-family: alegriya,serif;
+    font-size: 30px !important;
+}
+.designation-font{
+    font-size: 19px !important;
+}
+.testimonial-font{
+    font-size: 15px !important;
+    text-align: justify !important;
+}
+
+

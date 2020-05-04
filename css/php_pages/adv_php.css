@@ -1,0 +1,9 @@
+#jingleContWithPadding {
+    padding-bottom: 3%;
+}
+
+@media only screen and (max-width : 900px) {
+    #jingleContWithPadding {
+        padding-bottom: 18%;
+    }
+}
