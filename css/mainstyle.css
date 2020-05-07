@@ -61,8 +61,6 @@ h2{
 .navbar-toggler.navbar-dark{
     border-color: whitesmoke;
 }
-
-
 .logo{
     font-size: 600px;
 }
@@ -125,5 +123,45 @@ hr{
     font-size: 15px !important;
     text-align: justify !important;
 }
+.col-size{
+    height: 300px;
+}
 
-
+@media only screen and (max-width: 600px) {
+    .img-res{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .col-img-res{
+        padding-top: 5px !important;
+        padding-bottom: 9px !important;
+    }
+    .name-font{
+        margin-top: 10px !important;
+        font-size: 23px !important;
+    }
+    .designation-font{
+        font-size: 15px !important;
+        margin-bottom: 1px !important;
+    }
+    .testimonial-font{
+        font-size: 15px !important;
+        margin-bottom: 2px !important;
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+    .col-size{
+        height: 160px !important;
+    }
+    .para-size{
+        margin-top: 0px !important;
+    }
+    .para-two-size{
+        margin-top: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .col-desig-size{
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+  }
