@@ -131,10 +131,14 @@ hr{
     .img-res{
         width: 150px !important;
         height: 150px !important;
+        transition-timing-function: linear;
     }
     .col-img-res{
         padding-top: 5px !important;
         padding-bottom: 9px !important;
+    }
+    .col-content-res{
+        height: 250px !important;
     }
     .name-font{
         margin-top: 10px !important;
